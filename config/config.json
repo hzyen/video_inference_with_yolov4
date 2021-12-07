@@ -1,0 +1,20 @@
+{
+    "input_folder_dir": "../data/",
+    "input_video_filename": "car_360p.mp4",
+    "output_folder_dir": "../output/",
+    "output_frames_foldername": "car360p/",
+    "output_video_filename": "detection_360p.mp4",
+    "ingest_picture_width": 480,
+    "ingest_picture_height": 360,
+    "ingest_picture_fps": 25,
+    "output_picture_resolution_width": 480,
+    "output_picture_resolution_height": 360,
+    "transmission_rate": 25,
+    "useCuda": true,
+    "weightfile": "../weights/yolov4.pth",
+    "n_classes": 80,
+    "namesfile": "../pytorchYOLOv4/data/coco.names",
+    "save_image": false,
+    "log_folder_dir": "../log/",
+    "timezone": "Asia/Hong_Kong"
+}

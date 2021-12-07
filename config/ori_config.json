@@ -1,0 +1,15 @@
+{
+    "input_folder_dir": "./data/",
+    "input_video_filename": "car_4k.mp4",
+    "output_folder_dir": "./output/",
+    "output_frames_folder": "car4k/",
+    "output_video_filename": "inference_car4k.mp4",
+    "frame_width": 3840,
+    "frame_height": 1574,
+    "fps": 25,
+    "weightfile": "./weights/yolov4.pth",
+    "n_classes": 80,
+    "namesfile": "./pytorchYOLOv4/data/coco.names",
+    "save_image": false,
+    "timezone": "Asia/Hong_Kong"
+}
